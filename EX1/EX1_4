@@ -1,0 +1,24 @@
+# this is ex1_4:
+def.ex1_4:
+X=int(input())
+if X>7:
+    print(unacceptable)
+else:
+    if X==1:
+        print("monday")
+    if X==2:
+         print("tuesday")
+    if X==3:
+         print("wednesday")
+    if X==4:
+         print("thursday")
+    if X==5:
+         print("friday")
+    if X==6:
+         print("saturday")        
+    if X==7:
+         print("sunday")
+'''
+this function returns 
+date by the number of date in week
+'''
