@@ -3,7 +3,7 @@ height=int(input())
 base=int(input())
 area=0.5*height*base
 print("this is area:")+print(area)
-""'
+'''
 this function takes are and height 
 then returns the area
-"""
+'''
