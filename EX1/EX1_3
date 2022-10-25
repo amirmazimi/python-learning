@@ -3,7 +3,7 @@ X=int(input())
 Y=int(input())
 maximum_triangle_range=X+Y-1
 print(maximum_triangle_range)
-"""
+'''
 this function will take two district 
 and then returns the maximum of the other distrcit
-"""
+'''
