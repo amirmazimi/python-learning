@@ -1,8 +1,0 @@
-# this is ex1_1:
-initialnumber=int(input())
-secondnumber=initialnumber+1
-print(secondnumber)
-"""
-this function will accept an initial number adds 1 
-and prints the answer
-"""
