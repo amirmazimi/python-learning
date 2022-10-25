@@ -1,8 +1,0 @@
-1	# this is ex1_1:
-2	initialnumber=int(input())
-3	secondnumber=initialnumber+1
-4	print(secondnumber)
-5	'''
-6	this function will accept an initial number adds 1 to it 
-7	and prints the answer
-8	'''
