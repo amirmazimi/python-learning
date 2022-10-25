@@ -1,5 +1,4 @@
 # this is ex1_4:
-def.ex1_4:
 X=int(input())
 if X>7:
     print(unacceptable)
