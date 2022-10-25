@@ -1,0 +1,24 @@
+# this is ex1_6:
+X=int(input())
+if X==1:
+    print("I")
+if X==2:
+    print("II")
+if X==3:
+    print("III")
+if X==4:
+    print("IV")
+if X==5:
+    print("V")
+if X==6:
+    print("VI")        
+if X==7:
+    print("VII")
+if X==8:
+    print("VIII")
+if X==9:
+    print("IX")
+if X==10:
+    print("X")
+else:
+    print("error")
