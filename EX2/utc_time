@@ -1,0 +1,99 @@
+def seconds_difference(time_1, time_2):
+
+
+    return(time_2 - time_1)
+seconds_difference(float(input()), float(input()))
+
+
+def hours_difference(time_1, time_2):
+
+
+    return((time_2 - time_1)/3600)
+hours_difference(float(input()), float(input()))
+
+def to_float_hours(hours, minutes, seconds):
+
+
+    return (float_hour)
+time_1=float(input())
+(x, y)=(float(input()), float(input()))
+if x>=0 and x<=60 and y>=0 and y<=60:
+    time_2=x
+    time_3=y
+float_hour=(time_1*3600 + time_2*60 + time_3)/3600
+
+
+def to_24_hour_clock(hours):
+
+
+    return (hours)
+x=float(input())
+if x>=0:
+    hours=x % 24
+    
+
+
+
+def get_hours(hours):
+
+
+    return (hours)
+x=float(input())
+if x>=0:
+    val=int(x//3600)
+    hours=int(val)
+
+
+
+def get_minutes(time):
+
+
+    return (time)
+x=float(input())
+if x>=0:
+    val=x-int(x//3600)*3600
+    time=int(val//60)
+
+
+
+
+def get_seconds(second):
+
+
+    return (second)
+x=float(input())
+if x>=0:
+     val1=x-int(x//3600)*3600
+     val2=val1-int(val1//60)*60
+     second=int(val2)
+
+
+
+
+def time_to_utc(utc_time):
+
+
+    return(utc_time)
+x=float(input("please enter time:"))
+y=float(input("please enter utc:"))
+utc_time=y-x
+if utc_time==24:
+    utc_time==0.0
+else:
+    utc_time==y-x
+
+
+
+def time_from_utc(utc_time):
+
+    
+    return(utc_time)
+x=float(input("please enter time:"))
+y=float(input("please enter utc:"))
+utc_time=y+x
+if utc_time==24:
+    utc_time==0.0
+else:
+    utc_time==y+x
+
+
