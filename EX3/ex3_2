@@ -1,0 +1,24 @@
+def max_ad(numbers):
+    if len(numbers) == 6:
+        x = numbers[0]
+        y = numbers[1]
+        z = x * y
+        x1 = numbers[2]
+        y1 = numbers[3]
+        z1 = x1 * y1
+        x2 = numbers[4]
+        y2 = numbers[5]
+        z2 = x2 * y2
+    else:
+        x3 = numbers[6]
+        y3 = numbers[7]
+        z3 = x3 * y3
+        
+    if len(numbers) == 6:
+        list = [z, z1, z2]
+    else:
+        list = [z, z1, z2, z3]
+    
+    answer = max(list)
+    return answer
+  
