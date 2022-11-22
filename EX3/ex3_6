@@ -1,0 +1,7 @@
+def face_in(nums):
+    nums.sort()
+    x = nums[-1] - nums[0]
+    if x in nums :
+        return ":)"
+    else:
+        return ":("
