@@ -5,3 +5,4 @@ def face_in(nums):
         return ":)"
     else:
         return ":("
+    return ":/"
