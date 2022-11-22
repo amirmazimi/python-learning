@@ -1,0 +1,12 @@
+def maraton(miles):
+    gone = 0
+    pos_mile = [
+        
+        abs(i) for i in miles
+        
+        ] 
+    gone = sum(pos_mile)
+    if gone == 25 :
+    return True
+    else :
+        return False
