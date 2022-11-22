@@ -1,0 +1,11 @@
+def multi_di(a, b, c):
+    z = b-1
+    for x in range(z):
+        a += a
+    if a % c == 0:
+        return True
+    else:
+        return False
+    
+    
+    
