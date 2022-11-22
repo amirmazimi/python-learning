@@ -1,0 +1,15 @@
+def collatz_conjecture(num):
+    x = 0
+    n = num
+    while n > 1 :
+        if n % 2 == 0:
+            n = n / 2
+            x += 1
+        else:
+            n = n*3+1
+            x += 1
+    
+    return x
+
+    
+collatz_conjecture(10)
